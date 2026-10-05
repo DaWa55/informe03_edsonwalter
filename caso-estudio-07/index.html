@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <!-- Área del Formulario -->
+    <section class="formulario">
+        <form method="POST">
+            <h2 class="verde">Registrate</h2>
+            <p id="mensaje"></p>
+            <div class="entrada">
+                <img src="img/usuario.jpeg">
+                <input type="text" placeholder="Nombre y apellido" name="nombre" id="nombre" required>
+            </div>
+            <div class="entrada">
+                <img src="img/correo.png">
+                <input type="email" placeholder="Correo electrónico" name="correo" id="correo" required>
+            </div>
+            <div class="entrada">
+                <img src="img/candado.png">
+                <input type="password" placeholder="Contraseña" name="clave" id="clave" required>
+            </div>
+            <div class="entrada">
+                <img src="img/retorno.png">
+                <input type="password" placeholder="Repite tu contraseña" name="repetirclave" id="repetirclave" required>
+            </div>
+            <p>
+                <input type="checkbox" required>
+                Acepto las condiciones de uso y política de privacidad
+            </p>
+            <p>
+                ¿Ya tienes una cuenta? <a href="#" class="login">Iniciar sesión</a>
+            </p>
+            <p>
+                <button id="btnEnviar" class="grabar">Enviar</button>
+            </p>
+        </form>
+    </section>
+
+    <!-- Fin de la caja principal de toda la página (contenedor maestro) -->
+    <script src="index.js"></script>
+</body>
+</html>

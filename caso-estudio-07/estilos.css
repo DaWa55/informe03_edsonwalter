@@ -1,0 +1,74 @@
+body {
+    background-image: url("img/Fondo.jpg"); /* Cambia esto por el nombre y ruta de tu imagen */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.formulario{
+    width: 50%;
+    background-color: #f2f2f2;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.formulario h2 {
+    font-size: 40px;
+    text-align: center;
+    color: #1a2537;
+}
+
+.formulario .entrada {
+    border: 1px solid #aaa;
+    padding: 5px 15px;
+    margin: 15px 0px;
+    border-radius: 10px;
+}
+
+.formulario .entrada input {
+    background-color: #f2f2f2;
+    width: 80%;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+
+.formulario p {
+    text-align: center;
+    color: #615f5f;
+    padding: 5px;
+}
+
+.formulario p .login {
+    text-decoration: none;
+    font-weight: bold;
+    color: #1a2537;
+}
+
+.formulario p .login:hover {
+    color: cadetblue;
+}
+
+.formulario p .grabar {
+    width: 100%;
+    background-color: #1a2537;
+    color: #f2f2f2;
+    font-size: 20px;
+    padding: 15px 0px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.formulario p .grabar:hover {
+    background-color: cadetblue;
+}
+
+/* tamaño de los íconos, esto no está en la guía pero evita que salgan gigantes */
+.formulario .entrada img {
+    width: 25px;
+    vertical-align: middle;
+}
